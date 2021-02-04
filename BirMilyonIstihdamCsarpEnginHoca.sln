@@ -29,19 +29,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualMethod", "VirtualMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{329A534A-900A-4959-B062-6BBA87FA1460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo2_1", "RecapDemo2_1\RecapDemo2_1.csproj", "{CC9CC3AE-660A-43B8-A7BB-B00535DF05FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecapDemo2_1", "RecapDemo2_1\RecapDemo2_1.csproj", "{CC9CC3AE-660A-43B8-A7BB-B00535DF05FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesModifiers", "AccesModifiers\AccesModifiers.csproj", "{580653E8-1225-4C02-B5B8-D01EEF6C2788}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccesModifiers", "AccesModifiers\AccesModifiers.csproj", "{580653E8-1225-4C02-B5B8-D01EEF6C2788}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiersDemo", "AccessModifiersDemo\AccessModifiersDemo.csproj", "{18439CCE-4EE1-4DEC-90F0-B9C35EE5D861}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiersDemo", "AccessModifiersDemo\AccessModifiersDemo.csproj", "{18439CCE-4EE1-4DEC-90F0-B9C35EE5D861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contructors", "Contructors\Contructors.csproj", "{5D232FCB-72FE-49B2-96EC-247DF8EAFC91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contructors", "Contructors\Contructors.csproj", "{5D232FCB-72FE-49B2-96EC-247DF8EAFC91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferanceAndValueType", "ReferanceAndValueType\ReferanceAndValueType.csproj", "{4A140722-C173-488B-BB66-8F4084AB2B3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferanceAndValueType", "ReferanceAndValueType\ReferanceAndValueType.csproj", "{4A140722-C173-488B-BB66-8F4084AB2B3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{A905D26E-454A-4CE2-ACBD-8B8AD21A1A24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{A905D26E-454A-4CE2-ACBD-8B8AD21A1A24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{8E9E014D-66EB-459C-8DF6-CD73F3EB5918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Exceptions.csproj", "{8E9E014D-66EB-459C-8DF6-CD73F3EB5918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetDemo2", "AdoNetDemo2\AdoNetDemo2.csproj", "{59C5EC93-F51B-495D-9409-9DA38E9E9FF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameWork", "EntityFrameWork\EntityFrameWork.csproj", "{F572F5AB-0C77-4516-A30E-0EA0ED2D5D4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,14 @@ Global
 		{8E9E014D-66EB-459C-8DF6-CD73F3EB5918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E9E014D-66EB-459C-8DF6-CD73F3EB5918}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E9E014D-66EB-459C-8DF6-CD73F3EB5918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C5EC93-F51B-495D-9409-9DA38E9E9FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C5EC93-F51B-495D-9409-9DA38E9E9FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C5EC93-F51B-495D-9409-9DA38E9E9FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C5EC93-F51B-495D-9409-9DA38E9E9FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F572F5AB-0C77-4516-A30E-0EA0ED2D5D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F572F5AB-0C77-4516-A30E-0EA0ED2D5D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F572F5AB-0C77-4516-A30E-0EA0ED2D5D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F572F5AB-0C77-4516-A30E-0EA0ED2D5D4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
